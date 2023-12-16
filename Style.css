@@ -1,0 +1,132 @@
+@font-face{
+    font-family: "Raleway" ;
+    src: url('../CV\ DEU/Raleway.woff');
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&family=Raleway:ital,wght@0,400;0,700;1,100&display=swap');
+
+body{
+    font-family: "raleway",sans-serif;
+    width:1160px;
+    
+}
+header{
+    background-color: #782221;
+    width: 1000px;
+    margin: 20px auto;
+    
+}
+.post{
+    text-align: center;
+    padding: 30px;
+}
+.post__link{
+    width: 150px;
+    border-radius:50%;
+    box-shadow: 0px 0px 25px #ffff;
+    
+
+}
+.post__link:hover{
+    cursor: zoom-in;
+}
+h1{
+    font-family: "lato",sans-serif;
+    color: white;
+}
+h2{
+    font-family: "lato", sans-serif;
+    color: #ffff;
+}
+#flex-row{
+    background-color: #2c1d27;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#flex-row a{
+    color:#ffff ;
+    font-style: italic;
+
+}
+#flex-row a{
+    text-decoration: none;
+    background: linear-gradient(to top, rgba(255,255,255) 0%,rgba(255,255,255) 5%, transparent 5%) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+#flex-row a:hover{
+    background-size: 100% 100%;
+}
+#flex-row1{
+    background-color: #782221;
+    margin: 80Px ;  
+    margin-top: 0px; 
+    width: 400px;
+    height:800px;
+    padding-right: 45px;
+    margin-right: 25px;
+    margin-bottom: inherit;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+   
+    
+
+}
+#flex-row2{
+
+    margin-right: 80px;
+    padding-right: 100px;
+    border-right: 2px solid black;
+    
+    
+}
+
+
+
+.élément1{
+    color: #ffff;
+    text-align: justify;
+    margin-left: 10px;
+}
+#flex-row1 ul li{
+    color: #ffff;
+}
+footer{
+    background-color: #782221;
+    margin: 80px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.cadre{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#réseau1:hover{
+    opacity: 0.4;
+}
+#réseau2:hover{
+    opacity: 0.4;
+}
+#lien-réseau{
+    display: flex;
+    gap: 20px;
+    padding-left: 490px;
+}
+#lien-réseau p a{
+    color: #ffff;
+}
+
+.experiences-professionnelles {
+    background-color: #dbc2a4;
+    padding-left: 10px;
+    border-left: 8px solid #782221;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 32px;
+}

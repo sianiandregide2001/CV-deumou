@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&family=Raleway:ital,wght@0,400;0,700;1,100&display=swap');
+
 @font-face{
     font-family: "Raleway" ;
-    src: url('../CV\ DEU/Raleway.woff');
+    src: url('../cv deumou/fonts/Raleway.woff');
 }
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&family=Raleway:ital,wght@0,400;0,700;1,100&display=swap');
 
 body{
     font-family: "raleway",sans-serif;
-    width:1160px;
-    
+       
 }
+
 header{
     background-color: #782221;
     width: 1000px;
@@ -24,7 +25,6 @@ header{
     border-radius:50%;
     box-shadow: 0px 0px 25px #ffff;
     
-
 }
 .post__link:hover{
     cursor: zoom-in;
@@ -60,57 +60,76 @@ h2{
 }
 #flex-row1{
     background-color: #782221;
-    margin: 80Px ;  
-    margin-top: 0px; 
-    width: 400px;
+    margin: 252px;  
+    margin-top: -19.8px; 
+    width: 315px;
     height:800px;
+    margin-right:25px;
     padding-right: 45px;
-    margin-right: 25px;
     margin-bottom: inherit;
+    Padding-top: 5px;
 }
-#container{
+
+main {
     display: flex;
-    flex-direction: row;
-    margin-top: -20px;
-   
-    
+    margin:0px;
 
 }
+
+#container{
+    order: 1; 
+    flex: 1; 
+    
+}
+#container h3{
+    margin-left:20px
+}
+
+#container2 {
+    order: 2; 
+    flex: 1;  
+    border-right:2px solid black;
+    margin-right:252px;
+    margin-top:-20px;
+}
+
 #flex-row2{
 
-    margin-right: 80px;
     padding-right: 100px;
-    border-right: 2px solid black;
-    
+    margin-left:10px;  
+    margin-top:25px
     
 }
-
-
 
 .élément1{
     color: #ffff;
-    text-align: justify;
-    margin-left: 10px;
+    text-align: inherit;
+    margin-left: 20px;
+    text-indent: 20px; 
 }
+
 #flex-row1 ul li{
     color: #ffff;
 }
+
 footer{
     background-color: #782221;
-    margin: 80px;
+    margin: 252px;
     padding: 15px;
-    margin-top: 0px;
+    margin-top: 0.25px;
     margin-bottom: 8px;
+    text-align:center;
 }
-.cadre{
-    margin-left: 0px;
-    padding-left: 0px;
-}
+
 #réseau1:hover{
     opacity: 0.4;
 }
 #réseau2:hover{
     opacity: 0.4;
+}
+#réseau3:hover{
+    opacity: 0.4;
+
 }
 #lien-réseau{
     display: flex;
@@ -121,7 +140,7 @@ footer{
     color: #ffff;
 }
 
-.experiences-professionnelles {
+.section-title {
     background-color: #dbc2a4;
     padding-left: 10px;
     border-left: 8px solid #782221;
@@ -129,4 +148,23 @@ footer{
     align-items: center;
     margin-top: 10px;
     height: 32px;
+    font-family: "lato","sans-serif";
+}
+
+.section-content {
+
+    font-style: normal;
+}
+.section-titleleft{
+    background-color: #dbc2a4;
+    height: 32px;
+    font-family: "lato","sans-serif";
+}
+#flex-row3 img {
+    margin: 0 20px; 
+}
+#mise-à-jour{
+    color:#ffff;
+    text-indent:310px;
+
 }
